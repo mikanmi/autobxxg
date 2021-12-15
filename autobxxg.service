@@ -1,0 +1,7 @@
+[Unit]
+Description=autobxxg
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/lib/autobxxg/autobxxg.py
+StandardOutput=file:/dev/null
